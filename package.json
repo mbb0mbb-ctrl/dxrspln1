@@ -2,6 +2,7 @@
   "name": "ders-plani",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mbb0mbb-ctrl.github.io/dxrspln1",
   "dependencies": {
     "@hello-pangea/dnd": "^18.0.1",
     "file-saver": "^2.0.5",
