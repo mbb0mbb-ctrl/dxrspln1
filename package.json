@@ -2,7 +2,11 @@
   "name": "ders-plani",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "homepage": "https://mbb0mbb-ctrl.github.io/dxrspln1",
+  
   "dependencies": {
     "@hello-pangea/dnd": "^18.0.1",
     "file-saver": "^2.0.5",
