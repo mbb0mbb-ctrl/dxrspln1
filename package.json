@@ -2,11 +2,10 @@
   "name": "ders-plani",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mbb0mbb-ctrl.github.io/dxrspln1",
+  "homepage": "https://mbb0mbb-ctrl.github.io/mbb0mbb-ctrl",
   "dependencies": {
     "@hello-pangea/dnd": "^18.0.1",
     "file-saver": "^2.0.5",
-    "gh-pages": "^6.3.0",
     "lucide-react": "^0.539.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -17,12 +16,18 @@
     "tailwindcss": "^3.4.17",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "gh-pages": "^5.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
-  "build": "react-scripts build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-  "eject": "react-scripts eject"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -41,9 +46,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6"
   }
 }
