@@ -552,26 +552,6 @@ export default function DailyPlan() {
           </div>
         </ModernCard>
 
-        {/* Aylık Hedefler / Notlar */}
-        {currentMonthEntry?.goals?.length > 0 && (
-          <ModernCard className="mb-6">
-            <div className="flex items-center justify-between mb-2">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white flex items-center gap-2">
-                <Target className="w-5 h-5 text-purple-600" />
-                {currentMonthEntry.name} • Ay Notları
-              </h3>
-              <span className="text-xs text-gray-500 dark:text-gray-400">
-                {currentMonthEntry.goals.length} not
-              </span>
-            </div>
-            <ul className="list-disc pl-6 space-y-1 text-sm text-gray-700 dark:text-gray-200">
-              {currentMonthEntry.goals.map((g, i) => (
-                <li key={i}>{g}</li>
-              ))}
-            </ul>
-          </ModernCard>
-        )}
-
           {/* Görev Ekleme */}
         <ModernCard className="mb-6">
           <div className="flex items-center gap-4">

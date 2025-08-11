@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Home, Calendar, BarChart3, FileText, Clock } from 'lucide-react';
+import { Calendar, BarChart3, FileText, Clock } from 'lucide-react';
 import ExamTracker from './pages/ExamTracker';
 import DailyPlan from './pages/DailyPlan';
 import WeeklyPlan from './pages/WeeklyPlan';
