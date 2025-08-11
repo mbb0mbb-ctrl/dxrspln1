@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dxrspln1/static/css/main.25ca91f3.css",
+    "main.js": "/dxrspln1/static/js/main.166a6287.js",
+    "index.html": "/dxrspln1/index.html",
+    "main.25ca91f3.css.map": "/dxrspln1/static/css/main.25ca91f3.css.map",
+    "main.166a6287.js.map": "/dxrspln1/static/js/main.166a6287.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25ca91f3.css",
+    "static/js/main.166a6287.js"
+  ]
+}
